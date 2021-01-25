@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="Ue2.css">
+        <title> Form </title>
+    </head>
+    
+    <body>
+        <form action = "mailto:if20b009@technikum-wien.at" method="get" enctype="text/plain">
+        
+            
+            <h1>
+              KONTAKT
+            </h1>
+            <p>
+                ....................................................................................................................................................................................................................................................................................................................................................
+            </p>
+            
+            <div>
+                <label for = "anrede" > Anrede: </label>
+                <div> </div>
+                <select name ="text"> 
+                    <option value ="male">Herr</option>
+                    <option value ="female">Frau</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div>
+                <label for = "name">Name: </label>
+                  <div> </div>
+                <input type = "text" name = "name" id = "name" placeholder = "Vorname Nachname" required> 
+            </div>
+            
+            <br>
+            
+            <div>
+                <label for ="email" >E-Mail-Adresse: </label>
+                  <div> </div>
+               <input type = "email" name = "email" id = "email" placeholder = "name@example.com" required>
+          
+            </div>
+            
+            <br>
+            
+            <p> Nachricht:
+                  <div> </div>
+                <textarea name="t1" cols="50"
+                          rows ="5">
+                          </textarea>    
+                  <br>
+            
+          
+            <input class = "submit" type ="submit" value="Nachricht absenden">
+        
+          
+           
+            </form>
+    </body>
+    
+</html>
