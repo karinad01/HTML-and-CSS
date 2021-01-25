@@ -1,0 +1,153 @@
+body {
+  padding-top: 56px;
+}
+
+section, header {
+  min-height: 500px;
+}
+
+section:target, header:target {
+  padding-top: 56px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.col-md-4 i {
+  font-size: 5rem;
+  margin: 1.5rem 0;
+}
+
+.large i {
+  font-size: 7rem;
+}
+
+header {
+  color: white;
+  
+  background-image:  url("smart-home-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#schlafzimmer {
+  background-image: url("schlafzimmer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+#esszimmer {
+  background-image:  url("esszimmer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+#aussenbereich {
+  background-image: url("aussen2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+#wohnzimmer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+body {
+    padding-top: 56px;
+}
+
+section, header {
+    min-height: 500px;
+    &:target {
+        padding-top: 56px;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-md-4 i {
+    font-size: 5rem;
+    margin: 1.5rem 0;
+}
+
+.large i {
+    i {
+        font-size: 7rem;
+    }
+}
+
+header {
+    color: white;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#schlafzimmer {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#esszimmer
+{
+    background: linear-gradient( rgba(0, 0, 0, .75), rgba(0, 0, 0, .75) ), url('esszimmer.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#aussenbereich
+{
+    background: linear-gradient( rgba(0, 0, 0, .75), rgba(0, 0, 0, .75) ), url(aussen2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#schlafzimmer
+{
+    background: linear-gradient( rgba(0, 0, 0, .75), rgba(0, 0, 0, .75) ), url(schlafzimmer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+
