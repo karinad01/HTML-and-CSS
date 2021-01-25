@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6ff9545e10.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="ueb3.css">
+    <link href="../../Uebung3_1und2/public_html/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../Uebung3_1und2/public_html/bootstrap.css" rel="stylesheet" type="text/css"/>
+    
+    <title>Smart Home App</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">SmartHome</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schlafzimmer">Schlafzimmer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#wohnzimmer">Wohnzimmer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#esszimmer">Esszimmer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kueche">Küche</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aussenbereich">Außenbereich</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontakt">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container py-5">
+            <h1>SmartHome-Controller</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container py-5" id="home">
+            <h1>Willkommen in Ihrer virtuellen Wohnungszentrale!</h1>
+            <h3>Wir ermöglichen Ihnen die volle Kontrolle über Ihr Smart Home ...</h3>
+            <div class="row text-center mt-5">
+                <div class="col-md-4">
+                    <h4>Datenzugriff</h4>
+                    <img src="einstellungen.png" alt=""/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et malesuada tortor. Pellentesque et hendrerit massa. Maecenas tincidunt, purus in placerat ornare, lacus nunc egestas libero, vel faucibus odio tortor in turpis. Praesent pulvinar mollis auctor. Suspendisse fringilla, tellus eu volutpat malesuada, ipsum metus posuere est, nec imperdiet sapien diam quis enim. Nunc arcu lorem, venenatis vel viverra vitae, convallis at massa. Phasellus in orci cursus, scelerisque eros sed, congue ex. Aenean dui sapien, accumsan nec lacus in, vehicula blandit eros. Vestibulum aliquet erat posuere, blandit erat ut, consequat risus. Praesent accumsan neque eget tortor bibendum, et fermentum mi accumsan. Sed ac nisl massa. Vivamus sed mattis felis. Nullam interdum suscipit risus, vel finibus leo posuere et.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Geräte unabhängig</h4>
+                    <img src="pc_tablet_smartphone.jpg" alt=""/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et malesuada tortor. Pellentesque et hendrerit massa. Maecenas tincidunt, purus in placerat ornare, lacus nunc egestas libero, vel faucibus odio tortor in turpis. Praesent pulvinar mollis auctor. Suspendisse fringilla, tellus eu volutpat malesuada, ipsum metus posuere est, nec imperdiet sapien diam quis enim. Nunc arcu lorem, venenatis vel viverra vitae, convallis at massa. Phasellus in orci cursus, scelerisque eros sed, congue ex. Aenean dui sapien, accumsan nec lacus in, vehicula blandit eros. Vestibulum aliquet erat posuere, blandit erat ut, consequat risus. Praesent accumsan neque eget tortor bibendum, et fermentum mi accumsan. Sed ac nisl massa. Vivamus sed mattis felis. Nullam interdum suscipit risus, vel finibus leo posuere et.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Rund um die Uhr</h4>
+                    <img src="clock.png" alt=""/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et malesuada tortor. Pellentesque et hendrerit massa. Maecenas tincidunt, purus in placerat ornare, lacus nunc egestas libero, vel faucibus odio tortor in turpis. Praesent pulvinar mollis auctor. Suspendisse fringilla, tellus eu volutpat malesuada, ipsum metus posuere est, nec imperdiet sapien diam quis enim. Nunc arcu lorem, venenatis vel viverra vitae, convallis at massa. Phasellus in orci cursus, scelerisque eros sed, congue ex. Aenean dui sapien, accumsan nec lacus in, vehicula blandit eros. Vestibulum aliquet erat posuere, blandit erat ut, consequat risus. Praesent accumsan neque eget tortor bibendum, et fermentum mi accumsan. Sed ac nisl massa. Vivamus sed mattis felis. Nullam interdum suscipit risus, vel finibus leo posuere et.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="large i" id="schlafzimmer">
+        <div class="container py-5">
+            <h1>Schlafzimmer</h1>
+            <div class="row text-center mt-5">
+                <div class="col-md-4">
+                    <img src="temp_high.jpg" alt=""/>
+                </div>
+                <div class="col-md-4">       
+                    <img src="light_on.png" alt=""/>
+                    
+                </div>
+                <div class="col-md-4">
+                    <h4>Details</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et malesuada tortor. Pellentesque et hendrerit massa. Maecenas tincidunt, purus in placerat ornare, lacus nunc egestas libero, vel faucibus odio tortor in turpis. Praesent pulvinar mollis auctor. Suspendisse fringilla, tellus eu volutpat malesuada, ipsum metus posuere est, nec imperdiet sapien diam quis enim. Nunc arcu lorem, venenatis vel viverra vitae, convallis at massa. Phasellus in orci cursus, scelerisque eros sed, congue ex. Aenean dui sapien, accumsan nec lacus in, vehicula blandit eros. Vestibulum aliquet erat posuere, blandit erat ut, consequat risus. Praesent accumsan neque eget tortor bibendum, et fermentum mi accumsan. Sed ac nisl massa. Vivamus sed mattis felis. Nullam interdum suscipit risus, vel finibus leo posuere et.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="large i" id="wohnzimmer">
+        <div class="container py-5">
+            <h1>Wohnzimmer</h1>
+            <div class="row text-center mt-5">
+                <div class="col-md-4">
+                    <img src="light_on.png" alt=""/>
+                </div>
+                <div class="col-md-4">
+                    <img src="temp_high.jpg" alt=""/>
+                </div>
+                <div class="col-md-4">
+                    <h4>Details</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et malesuada tortor. Pellentesque et hendrerit massa. Maecenas tincidunt, purus in placerat ornare, lacus nunc egestas libero, vel faucibus odio tortor in turpis. Praesent pulvinar mollis auctor. Suspendisse fringilla, tellus eu volutpat malesuada, ipsum metus posuere est, nec imperdiet sapien diam quis enim. Nunc arcu lorem, venenatis vel viverra vitae, convallis at massa. Phasellus in orci cursus, scelerisque eros sed, congue ex. Aenean dui sapien, accumsan nec lacus in, vehicula blandit eros. Vestibulum aliquet erat posuere, blandit erat ut, consequat risus. Praesent accumsan neque eget tortor bibendum, et fermentum mi accumsan. Sed ac nisl massa. Vivamus sed mattis felis. Nullam interdum suscipit risus, vel finibus leo posuere et.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="large i" id="esszimmer">
+        <div class="container py-5">
+            <h1>Esszimmer</h1>
+            <div class="row text-center mt-5">
+                <div class="col-md-4">
+                    <img src="light_off.png" alt=""/>
+                </div>
+                <div class="col-md-4">
+                    <img src="temp_high.jpg" alt=""/>
+                </div>
+                <div class="col-md-4">
+                    <h4>Details</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et malesuada tortor. Pellentesque et hendrerit massa. Maecenas tincidunt, purus in placerat ornare, lacus nunc egestas libero, vel faucibus odio tortor in turpis. Praesent pulvinar mollis auctor. Suspendisse fringilla, tellus eu volutpat malesuada, ipsum metus posuere est, nec imperdiet sapien diam quis enim. Nunc arcu lorem, venenatis vel viverra vitae, convallis at massa. Phasellus in orci cursus, scelerisque eros sed, congue ex. Aenean dui sapien, accumsan nec lacus in, vehicula blandit eros. Vestibulum aliquet erat posuere, blandit erat ut, consequat risus. Praesent accumsan neque eget tortor bibendum, et fermentum mi accumsan. Sed ac nisl massa. Vivamus sed mattis felis. Nullam interdum suscipit risus, vel finibus leo posuere et.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="large i" id="kueche">
+        <div class="container py-5">
+            <h1>Küche</h1>
+            <div class="row text-center mt-5">
+                <div class="col-md-4">
+                    <img src="light_on.png" alt=""/>
+                </div>
+                <div class="col-md-4">
+                    <img src="temp_high.jpg" alt=""/>
+                </div>
+                <div class="col-md-4">
+                    <h4>Details</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et malesuada tortor. Pellentesque et hendrerit massa. Maecenas tincidunt, purus in placerat ornare, lacus nunc egestas libero, vel faucibus odio tortor in turpis. Praesent pulvinar mollis auctor. Suspendisse fringilla, tellus eu volutpat malesuada, ipsum metus posuere est, nec imperdiet sapien diam quis enim. Nunc arcu lorem, venenatis vel viverra vitae, convallis at massa. Phasellus in orci cursus, scelerisque eros sed, congue ex. Aenean dui sapien, accumsan nec lacus in, vehicula blandit eros. Vestibulum aliquet erat posuere, blandit erat ut, consequat risus. Praesent accumsan neque eget tortor bibendum, et fermentum mi accumsan. Sed ac nisl massa. Vivamus sed mattis felis. Nullam interdum suscipit risus, vel finibus leo posuere et.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="large i" id="aussenbereich">
+        <div class="container py-5">
+            <h1>Außenbereich</h1>
+            <div class="row text-center mt-5">
+                <div class="col-md-4">
+                    <img src="light_off.png" alt=""/>
+                </div>
+                <div class="col-md-4">
+                    <img src="temp_low.jpg" alt=""/>
+                </div>
+                <div class="col-md-4">
+                    <h4>Details</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et malesuada tortor. Pellentesque et hendrerit massa. Maecenas tincidunt, purus in placerat ornare, lacus nunc egestas libero, vel faucibus odio tortor in turpis. Praesent pulvinar mollis auctor. Suspendisse fringilla, tellus eu volutpat malesuada, ipsum metus posuere est, nec imperdiet sapien diam quis enim. Nunc arcu lorem, venenatis vel viverra vitae, convallis at massa. Phasellus in orci cursus, scelerisque eros sed, congue ex. Aenean dui sapien, accumsan nec lacus in, vehicula blandit eros. Vestibulum aliquet erat posuere, blandit erat ut, consequat risus. Praesent accumsan neque eget tortor bibendum, et fermentum mi accumsan. Sed ac nisl massa. Vivamus sed mattis felis. Nullam interdum suscipit risus, vel finibus leo posuere et.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="kontakt">
+        <div class="container">
+            <h1>Kontakt</h1>
+            <div class="row">
+                <div class="col-md-6 pr-5">
+                    <div class="my-4">
+                        
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi enim tempora ipsum reprehenderit illum architecto quis! Commodi, vitae, odit non blanditiis ex cumque nisi eius mollitia consequuntur sint quisquam distinctio? Quae vitae sit in dolores architecto eos quibusdam deserunt!</p>
+                </div>
+                <div class="col-md-6">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E -Mail:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht:</label>
+                            <textarea cols="30" rows="10" id="message" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-primary">Senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
